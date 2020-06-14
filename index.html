@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>momontum.js</title>
+        <link rel="stylesheet" href="src/style.css" />
+    </head>
+    <body>
+        <div class="clock">
+            <h1>00:00:00</h1>
+        </div>
+
+        <div class="name">
+            <form class="nameForm">
+                <input type="text" placeholder="What is your name?" />
+            </form>
+            <h3 class="greetings"></h3>
+        </div>
+
+        <div class="toDo">
+            <form class="toDoForm">
+                <input class="deadline" type="text" placeholder="Deadline." required />
+                <input class="inputToDo" type="text" placeholder="Write a to do." required />
+                <input class="hide" type="submit" value="to do!" />
+            </form>
+            <ul class="toDoList"></ul>
+        </div>
+        <div class="weather">
+            <span class="weatherSpan"></span>
+        </div>
+        <script src="src/js/weather.js"></script>
+        <script src="src/js/clock.js"></script>
+        <script src="src/js/greetings.js"></script>
+        <script src="src/js/todo.js"></script>
+        <script src="src/js/bg.js"></script>
+    </body>
+</html>
