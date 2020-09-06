@@ -2,114 +2,114 @@
 @import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@600;700&display=swap");
 
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-    width: 100%;
-    height: 100vh;
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-family: "Comfortaa", cursive;
-    font-weight: 600;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "Comfortaa", cursive;
+  font-weight: 600;
 }
 
 h1 {
-    font-size: 3rem;
-    font-weight: 700;
-    color: white;
+  font-size: 3rem;
+  font-weight: 700;
+  color: white;
 }
 
 h3 {
-    font-size: 2rem;
-    font-weight: 700;
-    color: white;
+  font-size: 2rem;
+  font-weight: 700;
+  color: white;
 }
 
 input {
-    all: unset;
-    background-color: white;
-    padding: 8px;
-    border-radius: 15px;
+  all: unset;
+  background-color: white;
+  padding: 8px;
+  border-radius: 15px;
 }
 
 button {
-    all: unset;
-    background-color: white;
-    padding: 5px;
-    border-radius: 13px;
-    width: 34px;
-    text-align: center;
-    color: red;
+  all: unset;
+  background-color: white;
+  padding: 5px;
+  border-radius: 13px;
+  width: 34px;
+  text-align: center;
+  color: red;
 }
 
 button:active {
-    transform: scale(0.9);
+  transform: scale(0.9);
 }
 
 .name {
-    margin-top: 50px;
+  margin-top: 50px;
 }
 
 .toDo {
-    margin-top: 30px;
+  margin-top: 30px;
 }
 
 .toDoForm .deadline {
-    width: 90px;
+  width: 90px;
 }
 
 .toDo ul {
-    margin-top: 15px;
+  margin-top: 15px;
 }
 
 .toDo ul li {
-    margin: 10px 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    color: white;
+  margin: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
 }
 
 .nameForm,
 .greetings,
 .hide {
-    display: none;
+  display: none;
 }
 
 .showing {
-    display: block;
+  display: block;
 }
 
 .bgImage {
-    position: absolute;
-    z-index: -2;
-    width: 100%;
+  position: absolute;
+  z-index: -2;
+  object-fit: cover;
 }
 
 body:after {
-    content: "";
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    background-color: rgba(0, 0, 0, 0.3);
-    z-index: -1;
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.3);
+  z-index: -1;
 }
 
 .weather {
-    position: absolute;
-    top: 10px;
-    right: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    color: white;
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
 }
 
 .weatherIcon {
-    width: 100px;
-    height: 100px;
+  width: 100px;
+  height: 100px;
 }
