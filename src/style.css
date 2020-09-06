@@ -84,9 +84,19 @@ button:active {
   display: block;
 }
 
-.bgImage {
+.bgImageWrapper {
+  width: 100%;
+  height: 100vh;
   position: absolute;
-  z-index: -2;
+  z-index: -3;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+}
+
+.bgImage {
+  width: 100%;
+  height: 100%;
   object-fit: cover;
 }
 
